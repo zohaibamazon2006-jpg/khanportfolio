@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(45, 8, 75);
+    color: rgb(255, 255, 255);
+    font-family:"Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(22, 22, 88);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none; 
+    margin: 0px 26px;
+}
+.left{
+    font-size: 1.3rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    width: 23px 0px;
+}
+.firstsection > div{
+    width: 30%;
+    height: 0% ;
+}
+.leftsection{
+ font-size: 2rem;
+ margin: 135px 10px;
+ 
+
+}
+.rightsection img{
+     width: 110%;
+     margin: 40px 0px;
+}
+.purple{
+    color: rgb(132, 11, 245);
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(107, 43, 255);
+    font-size: larger;
+    
+}
+#element{
+    color: blueviolet;
+}
+.secondsec{
+    max-width: 50vh;
+    margin: 200vw 110px;}
+    
+main hr{
+    background: blueviolet;
+    border: 0;
+    height: 1px;
+    margin: -39px 90px;
+}
+.secondsec h1{
+    max-width: 50vh;
+    margin: 10px auto} 
+
+.secondsec .grey{
+    padding: 10px 50px;
+    color: rgb(119, 135, 179);
+} 
+.secondsec img{
+    max-width: 50vh;
+    margin: 10px auto
+} 
+.secondsec .images{
+    display: flex;
+    align-items: center;
+}
+main li{
+    display: flex;
+}
+.pop ul{
+    display:flex;
+    justify-content: space-around;
+}
+.pop ul li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem
+}
+.thirdsection{
+    margin: -40px auto;
+    padding: 10px;
+    color:rgb(248, 174, 37);
+}
+.thirdsection p{
+    color:rgb(255, 255, 255);
+    font-size: small;
+}
+
+.pop :hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.black{
+    margin: 70px;
+    background: blueviolet;
+    border: 0;
+    height: 1px;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+    width: 23px 0px;}
+.aboutus img{
+    width: 130vh;
+    margin: -290px;
+} 
+.aboutus .textsec h1{
+    color: blueviolet;
+    padding: 0px 20vw;
+    font-size: 3rem;
+    
+}
+.aboutus .textsec p{
+    color: rgb(255, 254, 255);
+    font-family:"Poppins", sans-serif ;
+    margin: 23px 0px;
+    padding: 0px 33px 0px 280px;
+font-size:2rem;}
+
+#ele{
+    color: blueviolet;
+}
+.service{
+    color: rgb(232, 228, 236);
+    padding: 0px 0vw 0px 60vw;
+    margin-top: -16vw;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.fivesection>details{
+    padding: 10px;
+    margin: 0px 10px 0px 59vw;
+    font-size: 2rem;
+    color: rgb(132, 1, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    color: aqua;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fivesection>details:hover{
+    padding: 10px;
+    margin: 0px 10px 0px 59vw;
+    font-size: 3rem;
+    color: rgb(119, 114, 124);
+}
+.lolo{margin: 23px;}
+.lasth{
+    margin: 0px 0px 0px 80vh;
+    color: rgb(155, 132, 255);
+    font-size: 4rem;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+   flex-direction: column;
+   display: flex;
+   gap: 10px;
+   max-width: 300px;
+   margin: 50px 570px;
+}
+.flast{
+    flex-direction: row;
+}
+p{
+    margin: 45px 95vh;
+    color: rgb(201, 172, 172);
+    font-size: large;
+}
+button {
+    background-color: rgb(21, 72, 117);
+    justify-content: center;
+    text-align: center;
+    margin: -80vw 44vw;
+    width: 20vh;
+    font-size: larger;
+    border-radius: 7px;
+}
+input, select, textarea <#radio {
+  width: 250px;   
+  margin: 12px;
+  border-radius: 6px;
+}
+input {
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    background-color: brown;
+    height: 115px;
+}
